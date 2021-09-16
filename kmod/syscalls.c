@@ -20,7 +20,6 @@
 #include "includes/general.h"
 #include "includes/mem.h"
 #include "includes/syscalls.h"
-#include "includes/comm.h"
 #include "udis86.h"
 
 /*******************************************************************

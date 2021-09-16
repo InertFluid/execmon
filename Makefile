@@ -1,7 +1,6 @@
 # Main Makefile
 KM_DIR=kmod
-UM_DIR=app
-SUBDIRS = $(KM_DIR) $(UM_DIR)
+SUBDIRS = $(KM_DIR) 
 SUBDIRS_CLEAN = $(addsuffix .clean, $(SUBDIRS))
 
 .PHONY: clean $(SUBDIRS)
